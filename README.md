@@ -8,7 +8,7 @@ This is a simple script that detects when you're using distracting apps (like Di
 - Supports multiple apps (configurable list).
 - Lightweight and runs in the background.
 
-## Installation 
+## Installation
 ### Requirements
 - Python 3.x
 - Required libraries:
@@ -17,14 +17,17 @@ This is a simple script that detects when you're using distracting apps (like Di
   ```
 
 ## Usage
-1. Clone this repository or download the script.
-2. Run the script:
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/developer-cunningham/get-back-to-studying.git
+   ```
+2. Navigate to the project directory and run the script:
    ```sh
    python main.py
    ```
-3. If you open a tracked app (like Discord), a notification will remind you to **get back to studying**!
+3. If you open a tracked app (like Discord), a notification will remind you to get back to studying.
 
-## Configuration 
+## Configuration
 - Modify the `WATCHED_APPS` list in `main.py` to add or remove apps:
   ```python
   WATCHED_APPS = ["discord", "youtube", "steam"]
@@ -32,8 +35,9 @@ This is a simple script that detects when you're using distracting apps (like Di
 - Replace `sad.ico` with your own icon if desired.
 - It's a pretty small script just read the code and make changes if you want!
 
-## Contributing 🤝
+## Contributing
 Feel free to fork this repo and improve it! PRs are welcome.
 
 ## License
 MIT License
+
